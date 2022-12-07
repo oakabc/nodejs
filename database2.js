@@ -9,7 +9,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 //   client.close();
 // });
 
-MongoClient.connect("mongodb+srv://oakabc:123456Oak@cluster0.xymapjp.mongodb.net/", (err, db) => {
+MongoClient.connect("mongodb+srv://oakabc:<password>@cluster0.xymapjp.mongodb.net/", (err, db) => {
   if (err) console.log("connect to database error!!!");
   else console.log("connect Successfully");
 
